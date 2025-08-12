@@ -8,7 +8,7 @@ readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE.txt"]
 # authors 
-author = [
+authors = [
 	{name = "Tanmay Singh", email = "tsingh65@asu.edu"}
 ]
 # Python Versions Needed
