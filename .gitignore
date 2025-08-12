@@ -1,3 +1,13 @@
 dist/
 *.DS_Store
 miniconda.sh
+miniconda.sh
+build/
+dist/
+*.egg-info/
+*.tar.gz
+*.whl
+*.dmg
+*.pkg
+*.zip
+*.tar
