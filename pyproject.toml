@@ -5,7 +5,8 @@ version = "0.1.1a1"
 description = "Repository for implementation of a faster Ray Tracing and synthetic spectral spectroscopy in AREPO based TNG simulations"
 readme = "README.md"
 # license 
-license = "LICENSE.txt"
+license = "MIT"
+license-files = ["LICENSE.txt"]
 # authors 
 author = [
 	{name = "Tanmay Singh", email = "tsingh65@asu.edu"}
