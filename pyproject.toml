@@ -11,4 +11,15 @@ license-files = ["LICENSE.txt"]
 author = [
 	{name = "Tanmay Singh", email = "tsingh65@asu.edu"}
 ]
+# Python Versions Needed
+requires-python = ">=3.10"
+# dependencies needed
+dependencies = [
+	"numpy >= 1.25",
+	"h5py >= 3.1"
+]
+keywords = ["Cosmological Simulations", "Synthetic Spectroscopy"]
+classifiers = [
+	"Development Status :: 3 - Alpha",
+]
 
