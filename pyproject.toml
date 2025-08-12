@@ -23,3 +23,10 @@ classifiers = [
 	"Development Status :: 3 - Alpha",
 ]
 
+
+[project.urls]
+
+Homepage = "https://trident-project.org/"
+Source = "https://github.com/tanmay-starslab/syn-sightline-tng"
+Issue = "https://github.com/tanmay-starslab/syn-sightline-tng/issues/new"
+
