@@ -1,3 +1,13 @@
 [project]
 name = "syn-sightline-tng"
 version = "0.1.1a1"
+# description of the project
+description = "Repository for implementation of a faster Ray Tracing and synthetic spectral spectroscopy in AREPO based TNG simulations"
+readme = "README.md"
+# license 
+license = "LICENSE.txt"
+# authors 
+author = [
+	{name = "Tanmay Singh", email = "tsingh65@asu.edu"}
+]
+
