@@ -37,6 +37,8 @@ syn_sightline_tng = ["**/*.yml", "**/*.yaml", "**/*.txt", "data/**/*"]
 
 [project.optional-dependencies]
 examples = [
+	"jupyter",
+	"matplotlib"
 
 ]
 docs = [

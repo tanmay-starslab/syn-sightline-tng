@@ -16,7 +16,12 @@ theme:
 
 nav:
   - Home: index.md
-  # add more pages like:
+  - About: about.md
+  - Installation: installation.md
+  - License: license.md
+  - User Guide: 
+      - Getting Started: getting-started.md
+      - Configuration: configuration-options.md
   # - Getting Started: getting-started.md
   # - API: api.md
 
