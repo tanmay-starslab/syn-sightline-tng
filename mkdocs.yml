@@ -19,9 +19,9 @@ nav:
   - About: about.md
   - Installation: installation.md
   - License: license.md
-  - User Guide: 
-      - Getting Started: getting-started.md
-      - Configuration: configuration-options.md
+  - User Guide:
+      - Getting Started: user-guide/getting-started.md
+      - Configuration: user-guide/configuration-options.md
   # - Getting Started: getting-started.md
   # - API: api.md
 
