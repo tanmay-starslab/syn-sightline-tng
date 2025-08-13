@@ -1,32 +1,44 @@
 [project]
 name = "syn-sightline-tng"
 version = "0.1.1a1"
-# description of the project
 description = "Repository for implementation of a faster Ray Tracing and synthetic spectral spectroscopy in AREPO based TNG simulations"
 readme = "README.md"
-# license 
 license = "MIT"
 license-files = ["LICENSE.txt"]
-# authors 
 authors = [
-	{name = "Tanmay Singh", email = "tsingh65@asu.edu"}
+    {name = "Tanmay Singh", email = "tsingh65@asu.edu"}
 ]
-# Python Versions Needed
 requires-python = ">=3.10"
-# dependencies needed
 dependencies = [
-	"numpy >= 1.25",
-	"h5py >= 3.1"
+    "numpy >= 1.19.3",
+    "h5py >= 3.14.0"
 ]
 keywords = ["Cosmological Simulations", "Synthetic Spectroscopy"]
 classifiers = [
-	"Development Status :: 3 - Alpha",
+    "Development Status :: 3 - Alpha",
 ]
 
-
 [project.urls]
-
 Homepage = "https://trident-project.org/"
 Source = "https://github.com/tanmay-starslab/syn-sightline-tng"
 Issue = "https://github.com/tanmay-starslab/syn-sightline-tng/issues/new"
 
+# ---------------------------
+# Tell setuptools exactly what to package
+# ---------------------------
+[tool.setuptools.packages.find]
+include = ["syn_sightline_tng*"]
+exclude = ["tests*", "docs*", "path*"]
+
+# If you have non-Python files in your package that should be included:
+[tool.setuptools.package-data]
+syn_sightline_tng = ["**/*.yml", "**/*.yaml", "**/*.txt", "data/**/*"]
+
+
+[project.optional-dependencies]
+examples = [
+
+]
+docs = [
+	"mkdocs-material"
+]

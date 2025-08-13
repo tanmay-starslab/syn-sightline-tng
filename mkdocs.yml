@@ -1,0 +1,35 @@
+site_name: syn-sightline-tng
+site_description: "Synthetic sightline + ray tracing utilities for TNG (AREPO)"
+site_url: https://tanmay-starslab.github.io/syn-sightline-tng/
+repo_url: https://github.com/tanmay-starslab/syn-sightline-tng
+repo_name: tanmay-starslab/syn-sightline-tng
+
+# Your docs live in ./docs
+docs_dir: docs
+
+theme:
+  name: material   # change to "mkdocs" if you didn't install mkdocs-material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  # add more pages like:
+  # - Getting Started: getting-started.md
+  # - API: api.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - codehilite
+  - footnotes
+  - md_in_html
+  - attr_list
+
+plugins:
+  - search
