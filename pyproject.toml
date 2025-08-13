@@ -45,3 +45,6 @@ docs = [
         "mkdocs",
         "mkdocs-material",
 ]
+
+[project.scripts]
+syn-sightline-tng = "syn_sightline_tng.cli:main"
